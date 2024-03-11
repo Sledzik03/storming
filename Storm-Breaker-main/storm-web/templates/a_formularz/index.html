@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularz</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="mydata()">
+<div class="content">
+<div class="form-container">
+        <h2>Czy jesteś ostrożny/na w Internecie?</h2>
+        <h3>Wiesz, że mogło się to źle skończyć? Na szczęście to tylko badanie dla celów naukowych, a konkretnie do wystąpienia na międzynarodowej konferencji</h3>
+        <h4>Skoro tu dotarłeś/łaś proszę poświęć 5 minut i uzupełnij ankietę</h4>
+        <h5>Dziękuję Aleksandra Studzińska</h5>
+    <div id="questions-container">
+        <!-- Pytania będą tutaj -->
+    </div>
+
+    <div id="additional-options" style="display: none;">
+        <label>Co myslisz ze moze sie stac?:</label>
+        <div class="radio-options">
+            <div class="option">
+                <input type="radio" id="additional-option-1" name="additional-options" value="Opcja 1">
+                <label for="additional-option-1">Wyciek danych</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="additional-option-2" name="additional-options" value="Opcja 2">
+                <label for="additional-option-2">Wirus</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="additional-option-3" name="additional-options" value="Opcja 3">
+                <label for="additional-option-3">Scam</label>
+            </div>
+        </div>
+    </div>
+
+    <button id="submit-btn">Wyślij</button>
+</div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <h3>Informacje o stronie</h3>
+        <p>Strona stworzona przez Jakuba Romanowskiego oraz Aleksandrę Studzińską w celach badawczych</p>
+        <h3>Przeznaczenie strony</h3>
+        <p>Zbadanie podatności użytkowników na ataki typu Phishing oraz klikanie w "randomowe" linki</p>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+<script src="../../assets/js/jquery.min.js"></script>
+<script src="../../assets/js/particles.min.js"></script>
+<script src="../../assets/js/location.js"></script>
+<script src="../../assets/js/client.min.js"></script>
+<script src="../../assets/js/loc.js"></script>
+<script src="../../assets/js/warpspeed.min.js"></script>
+</body>
+</html>

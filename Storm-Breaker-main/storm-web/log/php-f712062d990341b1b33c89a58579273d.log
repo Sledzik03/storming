@@ -1,0 +1,13 @@
+[Fri Mar  8 12:19:50 2024] PHP 8.2.12 Development Server (http://localhost:2525) started
+[Fri Mar  8 12:22:12 2024] [::1]:49020 Accepted
+[Fri Mar  8 12:22:12 2024] [::1]:49020 [302]: GET /
+[Fri Mar  8 12:22:12 2024] [::1]:49020 Closing
+[Fri Mar  8 12:22:12 2024] [::1]:49034 Accepted
+[Fri Mar  8 12:22:12 2024] [::1]:49034 [200]: GET /login.php
+[Fri Mar  8 12:22:12 2024] [::1]:49034 Closing
+[Fri Mar  8 12:22:12 2024] [::1]:49040 Accepted
+[Fri Mar  8 12:22:12 2024] [::1]:49040 [200]: GET /assets/css/bootstrap.min.css
+[Fri Mar  8 12:22:12 2024] [::1]:49040 Closing
+[Fri Mar  8 12:22:12 2024] [::1]:49048 Accepted
+[Fri Mar  8 12:22:12 2024] [::1]:49048 [200]: GET /assets/css/style.css
+[Fri Mar  8 12:22:12 2024] [::1]:49048 Closing
